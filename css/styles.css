@@ -4050,6 +4050,7 @@ fieldset:disabled .btn {
     overflow-y: visible;
   }
 }
+
 @media (min-width: 768px) {
   .navbar-expand-md {
     flex-wrap: nowrap;
@@ -4097,6 +4098,12 @@ fieldset:disabled .btn {
     overflow-y: visible;
   }
 }
+@media (max-width: 844px) {
+  .navbar-brand {
+    font-size: 1.15rem;
+  }
+}
+
 @media (min-width: 992px) {
   .navbar-expand-lg {
     flex-wrap: nowrap;
